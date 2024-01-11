@@ -1,10 +1,10 @@
 [
   {
-    "name": "Live",
+    "name": "Javascript Advance",
     "streams": [
       {
         "name": "Big Buck Bunny (DASH, LIVE)",
-        "uri": "http://wowzaec2demo.streamlock.net/live/bigbuckbunny/manifest_mvtime.mpd"
+        "uri": "https://hls-c.udemycdn.com/2023-11-27_23-11-36-4fefe1e848d929fe491a44e54eb7ef86/2/hls/AVC_1920x1080_800k_AAC-HE_64k/aa00b43b03a0f79ebdba7eecadd095614ec610.ts?Expires=1705011377&Signature=rngI3bYCHm7R5ilmwVUUT~KB~ivpi7B1qHU-kmVLW63i4kp9KXE2ZLnh2QVBqr0Ihp27YsfwphqReKy5zmOvwzsokaKe6kAMiMwchXPggZQdOqg661A9AmK6FZGMI4W724qkGISzKAYetDwpeEBf8HyLc-xUmgsl1I1X08s2cPJ~cDZJvffd0XvJfc5gxriBLGFsGXMqEK9iDLEwBf5TqXXp26UVVPpsRJzVtJuXeqvHHF205fU0aapjrvyLZcXo4VADGSwWPn6kWLPpm3nrZi20R1kBNLi0I4AwI3O4xZvmoOo4sQhKAnj8vG0Nz7FnF6CXnmgExjxKnRtA5e9wzg__&Key-Pair-Id=K3MG148K9RIRF4.m3u8"
       },
       {
         "name": "Tears Of Steel (DASH, LIVE)",
