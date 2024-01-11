@@ -1,0 +1,7 @@
+{
+    "name": "libiwp-web",
+    "version": "2.0.0-rc1.wave11",
+    "description": "IWP for web player",
+    "main": "./iwp.min.cjs",
+    "module": "./iwp.min.mjs"
+}

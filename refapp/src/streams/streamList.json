@@ -1,0 +1,838 @@
+[
+  {
+    "name": "Live",
+    "streams": [
+      {
+        "name": "Big Buck Bunny (DASH, LIVE)",
+        "uri": "http://wowzaec2demo.streamlock.net/live/bigbuckbunny/manifest_mvtime.mpd"
+      },
+      {
+        "name": "Tears Of Steel (DASH, LIVE)",
+        "uri": "https://cph-msl.akamaized.net/dash/live/2003285/test/manifest.mpd"
+      },
+      {
+        "name": "CMAF LL Time (DASH, LIVE)",
+        "uri": "http://testlowlat.harmonicinc.com/Content/DASH/Live/channel(dash_ll_time)/manifest.mpd"
+      },
+      {
+        "name": "CMAF PPP-LL-2DASH (DASH, LIVE)",
+        "uri": "https://cdn-vos-ppp-01.vos360.video/Content/DASH_DASHCLEAR/Live/channel(PPP-LL-2DASH)/master.mpd"
+      },
+      {
+        "name": "Keepixo (DASH, LIVE, Multi Audio)",
+        "uri": "http://irtdashlive2-i.akamaihd.net/dash/live/900541/keepixo/manifest.mpd"
+      },
+      {
+        "name": "Shaka (DASH, LIVE)",
+        "uri": "https://storage.googleapis.com/shaka-live-assets/player-source.mpd"
+      },
+      {
+        "name": "VoA (HLS, LIVE)",
+        "uri": "https://voa-lh.akamaihd.net/i/voa_mpls_tvmc6@320298/master.m3u8"
+      },
+      {
+        "name": "CBN NEWS (HLS, LIVE)",
+        "uri": "https://bcliveuniv-lh.akamaihd.net/i/news_1@194050/master.m3u8"
+      },
+      {
+        "name": "Eight (HLS, LIVE)",
+        "uri": "https://moctobpltc-i.akamaihd.net/hls/live/571329/eight/playlist.m3u8"
+      },
+      {
+        "name": "AKAMAI (HLS, LIVE)",
+        "uri": "https://l2voddemo.akamaized.net/hls/live/644624/l2vc/master.m3u8"
+      },
+      {
+        "name": "Unified Streaming (MSS, LIVE)",
+        "uri": "https://demo.unified-streaming.com/k8s/live/live.isml/Manifest"
+      },
+      {
+        "name": "HbbTV Test (HTTP, TS, LIVE)",
+        "uri": "http://itv.mit-xperts.com/hbbtvtest/media/livestream.php"
+      }
+    ]
+  },
+  {
+    "name": "VoD Playback",
+    "streams": [
+      {
+        "name": "Envivio (DASH, VoD)",
+        "uri": "https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd"
+      },
+      {
+        "name": "Sintel (DASH, VoD)",
+        "uri": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd"
+      },
+      {
+        "name": "Formula (DASH, VOD)",
+        "uri": "http://dash.edgesuite.net/envivio/dashpr/clear/Manifest.mpd"
+      },
+      {
+        "name": "Tears of Steel (HLS, VoD)",
+        "uri": "http://content.jwplatform.com/manifests/vM7nH0Kl.m3u8"
+      },
+      {
+        "name": "Vevo (HLS, VoD)",
+        "uri": "http://hls-aws.vevo.com/v3/hls/2014/11/USSM21402039/5cd815d7-30fa-4fb2-9214-fe08552c751b/index.m3u8"
+      },
+      {
+        "name": "Art of Motion (HLS, VoD, renditions)",
+        "uri": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8"
+      },
+      {
+        "name": "HD World (HLS, VoD)",
+        "uri": "https://multiplatform-f.akamaihd.net/i/multi/april11/hdworld/hdworld_,512x288_450_b,640x360_700_b,768x432_1000_b,1024x576_1400_m,.mp4.csmil/master.m3u8"
+      },
+      {
+        "name": "Big Buck Bunny (HLS, VOD)",
+        "uri": "https://multiplatform-f.akamaihd.net/i/multi/will/bunny/big_buck_bunny_,640x360_400,640x360_700,640x360_1000,950x540_1500,.f4v.csmil/master.m3u8"
+      },
+      {
+        "name": "CCTV (HLS, VOD)",
+        "uri": "https://multiplatform-f.akamaihd.net/i/multi/april11/cctv/cctv_,512x288_450_b,640x360_700_b,768x432_1000_b,1024x576_1400_m,.mp4.csmil/master.m3u8"
+      },
+      {
+        "name": "Sintel HD (HLS, VOD)",
+        "uri": "https://multiplatform-f.akamaihd.net/i/multi/april11/sintel/sintel-hd_,512x288_450_b,640x360_700_b,768x432_1000_b,1024x576_1400_m,.mp4.csmil/master.m3u8"
+      },
+      {
+        "name": "Tears of Steel (MSS, VoD)",
+        "uri": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/Manifest"
+      },
+      {
+        "name": "Super Speed (MSS, VoD)",
+        "uri": "http://playready.directtaps.net/smoothstreaming/SSWSS720H264/SuperSpeedway_720.ism/Manifest"
+      },
+      {
+        "name": "Big Buck Bunny (HTTP, FMP4)",
+        "uri": "https://github.com/mediaelement/mediaelement-files/raw/master/big_buck_bunny.mp4"
+      },
+      {
+        "name": "Dizzy (HTTP, MP4)",
+        "uri": "https://html5demos.com/assets/dizzy.mp4"
+      }
+    ]
+  },
+  {
+    "name": "Live Multi Audio Tracks",
+    "streams": [
+      {
+        "name": "Multi Audio Tracks (DASH, LIVE, Multi Audio)",
+        "uri": "http://irtdashlive2-i.akamaihd.net/dash/live/900541/keepixo/manifest.mpd"
+      }
+    ]
+  },
+  {
+    "name": "VoD Playback Multi Audio Tracks",
+    "streams": [
+      {
+        "name": "SIDX Multiple Audio Tracks (DASH, VoD)",
+        "uri": "https://dash.akamaized.net/dash264/TestCases/10a/1/iis_forest_short_poem_multi_lang_480p_single_adapt_aaclc_sidx.mpd"
+      },
+      {
+        "name": "Multiple Audio Tracks - Segment template ($Time$ based) (DASH, VoD)",
+        "uri": "http://wowzaec2demo.streamlock.net/VoD/_definst_/ElephantsDream/smil:ElephantsDream.smil/manifest_mvtime.mpd"
+      },
+      {
+        "name": "Sintel, multi audio, multi subs (DASH, AAC, VoD)",
+        "uri": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd"
+      },
+      {
+        "name": "Sintel, multi audio (HLS, ADTS, VoD)",
+        "uri": "https://bitmovin-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+      },
+      {
+        "name": "Multi Audio Tracks (HLS, VoD, 4K)",
+        "uri": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+      },
+      {
+        "name": "Multi Audio Tracks (HTTP, VoD)",
+        "uri": "https://raw.githubusercontent.com/ietf-wg-cellar/matroska-test-files/master/test_files/test5.mkv"
+      }, 
+      {
+          "name": "Sintel (UHD, DASH, VoD,Multiaudio)",
+          "uri": "https://media.axprod.net/TestVectors/v7-Clear/Manifest_1080p.mpd"
+        },
+        {
+          "name": "DASH test 1",
+          "uri": "https://dash.akamaized.net/dash264/TestCases/1b/thomson-networks/1/manifest_bug.mpd"
+        },
+        {
+          "name": "DASH test 2",
+          "uri": "https://dash.akamaized.net/dash264/TestCases/1b/thomson-networks/2/manifest_bug.mpd"
+        },
+        {
+          "name": "DASH test3",
+          "uri": "https://ott.dolby.com/OnDelKits/AC-4/Dolby_AC-4_Online_Delivery_Kit_1.5/Test_Signals/muxed_streams/DASH/OnDemand/MPD/Multi_Lang_720p_25fps_h264.mpd"
+        }
+    ]
+  },
+  {
+    "name": "VoD 4K",
+    "streams": [
+      {
+        "name": "Big Buck Bunny (4K, DASH, VoD)",
+        "uri": "https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd"
+      },
+      {
+        "name": "Spring (4K, DASH, VoD)",
+        "uri": "http://dash.edgesuite.net/akamai/streamroot/050714/Spring_4Ktest.mpd"
+      },
+      {
+        "name": "Sintel (4K, HLS, VoD)",
+        "uri": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+      },
+      {
+        "name": "Big Buck Bunny (4K, HTTP, VoD)",
+        "uri": "http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_2160p_30fps_normal.mp4"
+      }
+    ]
+  },
+  {
+    "name": "HTTP Progressive Download (HTTP & HTTPS, VoD)",
+    "streams": [
+      {
+        "name": "Big Buck Bunny (HTTPS, FMP4)",
+        "uri": "https://github.com/mediaelement/mediaelement-files/raw/master/big_buck_bunny.mp4"
+      },
+      {
+        "name": "Tears Of Steel (HTTP, FMP4)",
+        "uri": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+      },
+      {
+        "name": "For Bigger Blazes (HTTP, FMP4)",
+        "uri": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+      },
+      {
+        "name": "Dizzy (HTTPS, MP4)",
+        "uri": "https://html5demos.com/assets/dizzy.mp4"
+      },
+      {
+        "name": "GoogleIO 2014 - Casting To The Future (HTTPS, MP4)",
+        "uri": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/GoogleIO-2014-CastingToTheFuture.mp4"
+      },
+      {
+        "name": "GoogleIO 2014 - Making Cast Ready Apps (HTTPS, MP4)",
+        "uri": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/GoogleIO-2014-MakingGoogleCastReadyAppsDiscoverable.mp4"
+      },
+      {
+        "name": "GTV - ElephantsDream (HTTPS, MP4)",
+        "uri": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+      },
+      {
+        "name": "GTV - Sintel (HTTPS, MP4)",
+        "uri": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+      },
+      {
+        "name": "April Fools - Gmail Blue (HTTPS, MP4)",
+        "uri": "https://commondatastorage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Introducing%20Gmail%20Blue.mp4"
+      },
+      {
+        "name": "April Fools - Google Fiber to the Pole (HTTPS, MP4)",
+        "uri": "https://commondatastorage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Introducing%20Google%20Fiber%20to%20the%20Pole.mp4"
+      },
+      {
+        "name": "April Fools - Google Nose (HTTPS, MP4)",
+        "uri": "https://commondatastorage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Introducing%20Google%20Nose.mp4"
+      },
+      {
+        "name": "Android screens (HTTPS, MKV)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv"
+      },
+      {
+        "name": "Screens 480p video only (HTTPS, FMP4, H264, NO AUDIO)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-avc-baseline-480.mp4"
+      },
+      {
+        "name": "Screens 1080p video only (HTTPS, FMP4, H264, NO AUDIO)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-137.mp4"
+      },
+      {
+        "name": "Screens audio only (HTTPS, FMP4, AAC, NO VIDEO)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/audio-141.mp4"
+      }
+    ]
+  },
+  {
+    "name": "Live DASH TTML Subtitles",
+    "streams": [
+      {
+        "name": "Live Testpic multiple subtitles (DASH, TTML, LIVE)",
+        "uri": "https://livesim.dashif.org/livesim/testpic_2s/multi_subs.mpd"
+      }
+    ]
+  },
+  {
+    "name": "DASH VoD TTML Subtitles",
+    "streams": [
+      {
+        "name": "ED Multiple Subtitles (DASH, TTML, VoD)",
+        "uri": "https://dash.akamaized.net/dash264/TestCases/4b/qualcomm/1/ED_OnDemand_5SecSeg_Subtitles.mpd"
+      },
+      {
+        "name": "ToS Multiple Subtitles (DASH, TTML, VoD)",
+        "uri": "https://dash.akamaized.net/dash264/TestCases/4b/qualcomm/2/TearsOfSteel_onDem5secSegSubTitles.mpd"
+      },
+      {
+        "name": "BBC ED TTML Subtitles (DASH, TTML, VoD)",
+        "uri": "http://rdmedia.bbc.co.uk/dash/ondemand/elephants_dream/1/client_manifest-all.mpd"
+      },
+      {
+        "name": "Ultraviolet Single Subtitle (DASH, TTML, VoD)",
+        "uri": "https://dash.akamaized.net/dash264/TestCases/4b/qualcomm/3/Solekai.mpd"
+      },
+      {
+        "name": "TTML with images packed in MP4 (ISO/IEC 14996-30)(DASH, TTML, VoD)",
+        "uri": "https://livesim.dashif.org/dash/vod/testpic_2s/imsc1_img.mpd"
+      },
+      {
+        "name": "Testpic multiple subtitles (DASH, TTML, VoD)",
+        "uri": "https://livesim.dashif.org/dash/vod/testpic_2s/multi_subs.mpd"
+      },
+      {
+        "name": "TTML/EBU-TT-D XML subtitle (DASH, TTML, VoD)",
+        "uri": "https://livesim.dashif.org/dash/vod/testpic_2s/xml_subs.mpd"
+      },
+      {
+        "name": "TTML with embedded images (SMTPE-TT extension)(DASH, TTML, VoD)",
+        "uri": "https://livesim.dashif.org/dash/vod/testpic_2s/img_subs.mpd"
+      },
+      {
+        "name": "Test vector with IMSC1 data, static manifest (DASH, TTML, VoD)",
+        "uri": "https://dash.akamaized.net/dash264/CTA/imsc1/IT1-20171027_dash.mpd"
+      }
+    ]
+  },
+  {
+    "name": "VoD CC Subtitles",
+    "streams": [
+      {
+        "name": "TWC News multi (4) subtitles (DASH, VoD, CC)",
+        "uri": "http://dash.akamaized.net/dash264/TestCases/4c/1/dash.mpd"
+      },
+      {
+        "name": "CEA 608/708 Embedded Captions Sample (DASH, VoD, CC)",
+        "uri": "https://livesim.dashif.org/dash/vod/testpic_2s/cea608.mpd"
+      },
+      {
+        "name": "Bipbop (HLS, VoD, CC)",
+        "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "VoD WebVTT Subtitles",
+    "streams": [
+      {
+        "name": "Elephants Dream (DASH, VoD, WebVTT)",
+        "uri": "https://dash.akamaized.net/akamai/test/caption_test/ElephantsDream/elephants_dream_480p_heaac5_1_https.mpd"
+      },
+      {
+        "name": "Sintel, multi subtitles, multi audio (DASH, VoD, WebVTT)",
+        "uri": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd"
+      }
+    ]
+  },
+  {
+    "name": "Dolby (AC3, E-AC3)",
+    "streams": [
+      {
+        "name": "Multi Language - eac3 / 48Khz / 5.1 (HTTP, E-AC3, MP4)",
+        "uri": "http://streaming.dolby.com/ftproot/mitXperts/mp4/mp4_multi_lang.mp4"
+      },
+      {
+        "name": "Multi Language - eac3 / 48Khz / 5.1 (HTTP, E-AC3, TS)",
+        "uri": "http://streaming.dolby.com/ftproot/mitXperts/ts/ts_multi_lang.ts"
+      },
+      {
+        "name": "Multi Language - eac3 / 48Khz / 5.1 (DASH, EAC3)",
+        "uri": "http://streaming.dolby.com/ftproot/mitXperts/dash/dash_multi_lang.mpd"
+      },
+      {
+        "name": "Multi Channel Audio, Dolby Audio 6-Channel ID (DASH, AC3)",
+        "uri": "https://dash.akamaized.net/dash264/TestCasesMCA/dolby/1/1/ChID_voices_51_256_ddp.mpd"
+      },
+      {
+        "name": "Multi Channel Audio, Dolby Audio EC-3, On Demand profile, Single Stereo (DASH, E-AC3, VoD)",
+        "uri": "https://dash.akamaized.net/dash264/TestCasesMCA/dolby/3/1/ChID_voices_20_128_ddp.mpd"
+      },
+      {
+        "name": "Multi Channel Audio, Dolby Audio EC-3, Single Audio Representation (DASH, E-AC3, VoD)",
+        "uri": "https://dash.akamaized.net/dash264/TestCasesMCA/dolby/2/1/ChID_voices_71_768_ddp.mpd"
+      },
+      {
+        "name": "Multi Channel Audio, Dolby Audio EC-3, Multiple Audio Representations (DASH, E-AC3, VoD)",
+        "uri": "https://dash.akamaized.net/dash264/TestCasesMCA/dolby/4/1/ChID_voices_71_384_448_768_ddp.mpd"
+      }
+    ]
+  },
+  {
+    "name": "Audio Formats and Configurations",
+    "streams": [
+     
+      {
+        "name": "SIDX - Multiple Audio Tracks (DASH, AAC-LC)",
+        "uri": "https://dash.akamaized.net/dash264/TestCases/10a/1/iis_forest_short_poem_multi_lang_480p_single_adapt_aaclc_sidx.mpd"
+      },
+      {
+        "name": "Audio only (AAC)",
+        "uri": "https://filesamples.com/samples/audio/aac/sample4.aac"
+      },
+      {
+        "name": "Dolby Audio only (AC3)",
+        "uri": "https://filesamples.com/samples/audio/ac3/sample4.ac3"
+      },      
+      {
+        "name": "Dolby Audio only (E-AC3)",
+        "uri": "https://samples.ffmpeg.org/A-codecs/AC3/eac3/buggy_aht_5.1_384.eac3"
+      },
+      {
+        "name": "Multi Language - eac3 / 48Khz / 5.1 (DASH, EAC3)",
+        "uri": "http://streaming.dolby.com/ftproot/mitXperts/dash/dash_multi_lang.mpd"
+      },
+      {
+        "name": "Test Case Dolby (DASH, AC-4)",
+        "uri": "https://dash.akamaized.net/dash264/TestCasesDolby/1/Living_Room_1080p_20_96k_25fps.mpd"
+      },
+      {
+        "name": "Audio only (MP3)",
+        "uri": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_2MG.mp3"
+      },
+      {
+        "name": "Elephants Dream, Multiple Audio Representations (DASH, AAC-LC)",
+        "uri": "https://dash.akamaized.net/dash264/TestCases/3b/fraunhofer/aac-lc_stereo_with_video/ElephantsDream/elephants_dream_480p_aaclc_stereo_sidx.mpd"
+      },
+      {
+        "name": "Sintel, Multiple Audio Representations, (DASH, AAC-LC)",
+        "uri": "https://dash.akamaized.net/dash264/TestCases/3b/fraunhofer/aac-lc_stereo_with_video/Sintel/sintel_480p_aaclc_stereo_sidx.mpd"
+      },
+      {
+        "name": "Elephants Dream, Multiple Audio Representations, (DASH, HEAAC)",
+        "uri": "https://dash.akamaized.net/dash264/TestCases/3b/fraunhofer/heaac_stereo_with_video/ElephantsDream/elephants_dream_480p_heaac_stereo_sidx.mpd"
+      },
+      {
+        "name": "Sintel, Multiple Audio Representations, (DASH, HEAAC)",
+        "uri": "https://dash.akamaized.net/dash264/TestCases/3b/fraunhofer/heaac_stereo_with_video/Sintel/sintel_480p_heaac_stereo_sidx.mpd"
+      },
+      {
+        "name": "Elephants Dream, Multiple Audio Representations, (DASH, HEAACv2)",
+        "uri": "https://dash.akamaized.net/dash264/TestCases/3b/fraunhofer/heaacv2_stereo_with_video/ElephantsDream/elephants_dream_480p_heaacv2_stereo_sidx.mpd"
+      },
+      {
+        "name": "Sintel, Multiple Audio Representations, (DASH, HEAACv2)",
+        "uri": "https://dash.akamaized.net/dash264/TestCases/3b/fraunhofer/heaacv2_stereo_with_video/Sintel/sintel_480p_heaacv2_stereo_sidx.mpd"
+      }
+    ]
+  },
+  {
+    "name": "Video Formats and Configurations",
+    "streams": [
+      {
+        "name": "HD (DASH, MP4, H264)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/60fps/bbb-clear-1080/manifest.mpd"
+      },
+      {
+        "name": "4K (DASH, MP4, H264)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/60fps/bbb-clear-2160/manifest.mpd"
+      },
+      {
+        "name": "HD (DASH, MP4, H264)",
+        "uri": "https://storage.googleapis.com/wvmedia/clear/h264/tears/tears.mpd"
+      },
+      {
+        "name": "UHD (DASH, MP4, H264)",
+        "uri": "https://storage.googleapis.com/wvmedia/clear/h264/tears/tears_uhd.mpd"
+      },
+      {
+        "name": "HD (DASH, MP4, H265)",
+        "uri": "https://storage.googleapis.com/wvmedia/clear/hevc/tears/tears.mpd"
+      },
+      {
+        "name": "UHD (DASH, MP4, H265)",
+        "uri": "https://storage.googleapis.com/wvmedia/clear/hevc/tears/tears_uhd.mpd"
+      },
+      {
+        "name": "Big Buck Bunny (4K, DASH, VoD)",
+        "uri": "https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd"
+      },
+      {
+        "name": "Harmonic CBR (DASH, LIVE)",
+        "uri": "http://testlowlat.harmonicinc.com/Content/DASH/Live/channel(cbr)/manifest.mpd"
+      },
+      {
+        "name": "MPEG (HTTP)",
+        "uri": "https://ia600209.us.archive.org/20/items/ElephantsDream/ed_1024_512kb.mp4"
+      },
+      {
+        "name": "SD (WebM)",
+        "uri": "https://storage.googleapis.com/wvmedia/2019/clear/av1/24/webm/llama_av1_480p_400.webm"
+      },
+      {
+        "name": "Big Buck Bunny 480p (HTTP, MP4, AV1)",
+        "uri": "https://storage.googleapis.com/downloads.webmproject.org/av1/exoplayer/bbb-av1-480p.mp4"
+      },
+      {
+        "name": "VP8 (WebM)",
+        "uri": "https://test-videos.co.uk/vids/bigbuckbunny/webm/vp8/1080/Big_Buck_Bunny_1080_10s_1MB.webm"
+      },
+      {
+        "name": "VP9 HD (DASH, VoD)",
+        "uri": "https://dash.akamaized.net/dash264/TestCasesVP9/vp9-hd/sintel-vp9-hd.mpd"
+      },
+      {
+        "name": "Shaka (DASH, LIVE, VP9)",
+        "uri": "https://storage.googleapis.com/shaka-live-assets/player-source.mpd"
+      },
+      {
+        "name": "Big Buck Bunny 480p (HTTP, MP4, AV1)",
+        "uri": "https://storage.googleapis.com/downloads.webmproject.org/av1/exoplayer/bbb-av1-480p.mp4"
+      }
+    ]
+  },
+  {
+    "name": "User Scenarios",
+    "streams": [
+      {
+        "name": "Multi Channel Audio, MPEG Surround 6-Channel ID (DASH, MPEG 5.1)",
+        "uri": "https://dash.akamaized.net/dash264/TestCasesMCA/fraunhofer/MPEG_Surround/1/6chID/6chId_480p_single_adapt_mps5_1_sidx.mpd"
+      },
+      {
+        "name": "Multi Channel Audio, MPEG Surround 6-Channel, Multiple Audio Representations, Elephants Dream (DASH, MPEG 5.1)",
+        "uri": "https://dash.akamaized.net/dash264/TestCasesMCA/fraunhofer/MPEG_Surround/2/ElephantsDream_6ch/elephants_dream_480p_mps5_1_sidx.mpd"
+      },
+      {
+        "name": "Multi Channel Audio, MPEG Surround 6-Channel, Multiple Audio Representations, Sintel (DASH, MPEG 5.1)",
+        "uri": "https://dash.akamaized.net/dash264/TestCasesMCA/fraunhofer/MPEG_Surround/2/Sintel_6ch/sintel_480p_mps5_1_sidx.mpd"
+      },
+      {
+        "name": "Multi Channel Audio, HE-AACv2 Multichannel 6-Channel ID (DASH, HE-AACv2 5.1)",
+        "uri": "https://dash.akamaized.net/dash264/TestCasesMCA/fraunhofer/HE-AACv2_Multichannel/1/6chID/6chId_480p_single_adapt_heaac5_1_sidx.mpd"
+      },
+      {
+        "name": "Multi Channel Audio, HE-AACv2 Multichannel 8-Channel ID (DASH, HE-AACv2 7.1)",
+        "uri": "https://dash.akamaized.net/dash264/TestCasesMCA/fraunhofer/HE-AACv2_Multichannel/2/8chID/8ch_id_480p_single_adapt_heaac7_1_cf12_sidx.mpd"
+      },
+      {
+        "name": "Multi Channel Audio, HE-AACv2, Multiple Audio Representations, Elephants Dream (DASH, HE-AACv2 5.1)",
+        "uri": "https://dash.akamaized.net/dash264/TestCasesMCA/fraunhofer/HE-AACv2_Multichannel/3/ElephantsDream_6ch/elephants_dream_480p_heaac5_1_sidx.mpd"
+      },
+      {
+        "name": "Multi Channel Audio, HE-AACv2, Multiple Audio Representations, Sintel (DASH, HE-AACv2 5.1)",
+        "uri": "https://dash.akamaized.net/dash264/TestCasesMCA/fraunhofer/HE-AACv2_Multichannel/3/Sintel_6ch/sintel_480p_heaac5_1_sidx.mpd"
+      },
+      {
+        "name": "Multi Channel Audio, MPEG-H Stereo Audio (DASH, MPEG-H)",
+        "uri": "https://dash.akamaized.net/dash264/TestCasesMCA/fraunhofer/MPEGH_Stereo_lc_mha1/1/Sintel/sintel_audio_video_mpegh_mha1_stereo_sidx.mpd"
+      },
+      {
+        "name": "Multi Channel Audio, MPEG-H 5.1 Audio (DASH, MPEG-H 5.1)",
+        "uri": "https://dash.akamaized.net/dash264/TestCasesMCA/fraunhofer/MPEGH_51_lc_mha1/1/Sintel/sintel_audio_video_mpegh_mha1_5_1_brs_sidx.mpd"
+      },
+      {
+        "name": "MPEG-H 7.1 Audio (DASH, MPEG-H 7.1)",
+        "uri": "https://dash.akamaized.net/dash264/TestCasesMCA/fraunhofer/MPEGH_714_lc_mha1/1/Sintel/sintel_audio_video_mpegh_mha1_7_1_4_sidx.mpd"
+      }
+    ]
+  },
+  {
+    "name": "DRM",
+    "streams": [
+      {
+        "name": "MultiDRM-MultiKey (DASH)",
+        "uri": "https://media.axprod.net/TestVectors/v6.1-MultiDRM-MultiKey/Manifest_1080p.mpd"
+      },
+      {
+        "name": "Non-Encrypted (DASH)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/60fps/bbb-clear-1080/manifest.mpd"
+      },
+      {
+        "name": "Non-Encrypted (HLS)",
+        "uri": "http://hls-video.vevo.com/v5/USUV71603866/hls/a766c57d-e779-44d5-9334-5554f74c0d94/index.m3u8"
+      },
+      {
+        "name": "Encrypted Widevine (WV, DASH)",
+        "uri": "https://bitmovin-a.akamaihd.net/content/art-of-motion_drm/mpds/11331.mpd",
+        "drm_license_url": "https://widevine-proxy.appspot.com/proxy",
+        "drm_scheme": "widevine"
+      },
+      {
+        "name": "Encrypted PlayReady (PR, MSS, MP4, H264)",
+        "uri": "https://playready.directtaps.net/smoothstreaming/SSWSS720H264PR/SuperSpeedway_720.ism/Manifest",
+        "drm_license_uri": "https://playready.directtaps.net/pr/svc/rightsmanager.asmx",
+        "drm_scheme": "playready"
+      },
+      {
+        "name": "SD (WebM, Widevine cenc, L3)",
+        "uri": "https://storage.googleapis.com/wvmedia/2019/cenc/av1/24/webm/llama_av1_480p_400.webm",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_CRYPTO&provider=widevine_test",
+        "drm_scheme": "widevine"
+      },
+      {
+        "name": "SD (WebM, Widevine cenc, L1)",
+        "uri": "https://storage.googleapis.com/wvmedia/2019/cenc/av1/24/webm/llama_av1_480p_400.webm",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_HW_SECURE_ALL&provider=widevine_test",
+        "drm_scheme": "widevine"
+      },
+      {
+        "name": "DRM Widevine Multiple audio tracks with different codecs and WebVTT subtitles (WV, DASH, Multi Audio, Multi Subtitles)",
+        "uri": "https://storage.googleapis.com/shaka-demo-assets/angel-one-widevine/dash.mpd",
+        "drm_license_uri": "https://widevine-proxy.appspot.com/proxy?video_id=&provider=",
+        "drm_scheme": "widevine"
+      }
+    ]
+  },
+  {
+    "name": "Channel Change",
+    "streams": [
+      {
+        "name": "DASH 1",
+        "uri": "https://livesim.dashif.org/livesim/segtimeline_1/testpic_2s/Manifest.mpd"
+      },
+      {
+        "name": "DASH 2",
+        "uri": "https://cph-msl.akamaized.net/dash/live/2003285/test/manifest.mpd"
+      },
+      {
+        "name": "DASH 3",
+        "uri": "https://dash.akamaized.net/dash264/TestCases/10a/1/iis_forest_short_poem_multi_lang_480p_single_adapt_aaclc_sidx.mpd"
+      },
+      {
+        "name": "DASH 4",
+        "uri": "https://storage.googleapis.com/wvmedia/clear/h264/tears/tears.mpd"
+      },
+      {
+        "name": "HLS 1",
+        "uri": "https://bcliveuniv-lh.akamaihd.net/i/news_1@194050/master.m3u8"
+      },
+      {
+        "name": "HLS 2",
+        "uri": "https://l2voddemo.akamaized.net/hls/live/644624/l2vc/master.m3u8"
+      },
+      {
+        "name": "HLS 3",
+        "uri": "https://voa-lh.akamaihd.net/i/voa_mpls_tvmc6@320298/master.m3u8"
+      },
+      {
+        "name": "HLS 4",
+        "uri": "https://moctobpltc-i.akamaihd.net/hls/live/571329/eight/playlist.m3u8"
+      },
+      {
+        "name": "MSS 1",
+        "uri": "https://demo.unified-streaming.com/k8s/live/live.isml/Manifest"
+      },
+      {
+        "name": "MSS 2",
+        "uri": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/Manifest"
+      }
+    ]
+  },
+  {
+    "name": "Analytics",
+    "streams": [
+      {
+        "name": "MPD FrameDrop (DASH)",
+        "uri": "http://rdmedia.bbc.co.uk/dash/ondemand/testcard/1/client_manifest-events.mpd"
+      }
+    ]
+  },
+  {
+    "name": "CMAF",
+    "streams": [
+
+      {
+        "name": "CMAF content 1 (DASH)",
+        "uri": "http://testlowlat.harmonicinc.com/Content/DASH/Live/channel(dash_ll_time)/manifest.mpd"
+      },
+      {
+        "name": "CMAF content 2 (DASH)",
+        "uri": "https://cdn-vos-ppp-01.vos360.video/Content/DASH_DASHCLEAR/Live/channel(PPP-LL-2DASH)/master.mpd"
+      }
+    ]
+  },
+  {
+    "name": "ABR Live Playback",
+    "streams": [
+      {
+        "name": "DASH LIVE",
+        "uri": "http://cph-msl.akamaized.net/dash/live/2003285/test/manifest.mpd"
+      },
+      {
+        "name": "HLS LIVE",
+        "uri": "http://voa-lh.akamaihd.net/i/voa_mpls_tvmc6@320298/master.m3u8"
+      },
+      {
+        "name": "MSS LIVE (3 Represenations Only)",
+        "uri": "http://demo.unified-streaming.com/k8s/live/live.isml/Manifest"
+      }
+    ]
+  },
+  {
+    "name": "ABR VoD Playback",
+    "streams": [
+      {
+        "name": "DASH VoD",
+        "uri": "http://rdmedia.bbc.co.uk/dash/ondemand/testcard/1/client_manifest-events.mpd"
+      },
+      {
+        "name": "BBB HLS VoD",
+        "uri": "http://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+      },
+      {
+        "name": "HLS VoD",
+        "uri": "http://hls-aws.vevo.com/v3/hls/2014/11/USSM21402039/5cd815d7-30fa-4fb2-9214-fe08552c751b/index.m3u8"
+      },
+      {
+        "name": "MSS VoD",
+        "uri": "http://playready.directtaps.net/smoothstreaming/SSWSS720H264/SuperSpeedway_720.ism/Manifest"
+      },
+      {
+        "name": "IOP41 DASH Clear 4K, AVC Multi-Rate Multi-Resolution (DASH, AAC)",
+        "uri": "https://media.axprod.net/TestVectors/v9-MultiFormat/Clear/Manifest.mpd"
+      },
+      {
+        "name": "IOP41 DASH Clear 1080p, AVC Multi-Rate Multi-Resolution (DASH, AAC)",
+        "uri": "https://media.axprod.net/TestVectors/v9-MultiFormat/Clear/Manifest_1080p.mpd"
+      }
+    ]
+  },
+  {
+    "name": "Broadpeak (Live DASH & HLS)",
+    "streams": [
+      {
+        "name": "Broadpeak TVR (HLS, LIVE)",
+        "uri": "http://pf6.broadpeak-vcdn.com/bpk-tv/tvr/default/index.m3u8"
+      },
+      {
+        "name": "Broadpeak TVR (DASH, LIVE)",
+        "uri": "http://pf6.broadpeak-vcdn.com/bpk-tv/tvr/default/index.mpd"
+      },
+      {
+        "name": "Broadpeak France3 (HLS, LIVE)",
+        "uri": "http://pf6.broadpeak-vcdn.com/bpk-tv/France3/default/index.m3u8"
+      },
+      {
+        "name": "Broadpeak France3 (DASH, LIVE)",
+        "uri": "http://pf6.broadpeak-vcdn.com/bpk-tv/France3/default/index.mpd"
+      },
+      {
+        "name": "Broadpeak TVR (HLS, LIVE, SSL)",
+        "uri": "https://pf6.broadpeak-vcdn.com/bpk-tv/tvr/default/index.m3u8"
+      },
+      {
+        "name": "Broadpeak TVR (DASH, LIVE, SSL)",
+        "uri": "https://pf6.broadpeak-vcdn.com/bpk-tv/tvr/default/index.mpd"
+      },
+      {
+        "name": "Broadpeak France3 (HLS, LIVE, SSL)",
+        "uri": "https://pf6.broadpeak-vcdn.com/bpk-tv/France3/default/index.m3u8"
+      },
+      {
+        "name": "Broadpeak France3 (DASH, LIVE, SSL)",
+        "uri": "https://pf6.broadpeak-vcdn.com/bpk-tv/France3/default/index.mpd"
+      },
+      {
+        "name": "Broadpeak TVR CMAF (HLS, LIVE, SSL)",
+        "uri": "https://pf5.broadpeak-vcdn.com/bpk-tv/tvrll/llcmaf/index.m3u8"
+      },
+      {
+        "name": "Broadpeak TVR CMAF (DASH, LIVE, SSL)",
+        "uri": "https://pf5.broadpeak-vcdn.com/bpk-tv/ll/llcmaf/index.mpd"
+      }
+    ]
+  },
+  {
+    "name": "Broadpeak (Random H264 & HEVC, DASH, VOD)",
+    "streams": [
+      {
+        "name": "Broadpeak Random H264 (DASH, VOD)",
+        "uri": "http://51.77.233.180/portal/content/rand/stream_rand.mpd"
+      },
+      {
+        "name": "Broadpeak Random H264 and HEVC (DASH, VOD)",
+        "uri": "http://51.77.233.180/portal/content/randhevc/stream_rand.mpd"
+      }
+    ]
+  },
+  {
+    "name": "DASHIF Live",
+    "streams": [
+      {
+        "name": "DASHIF - Live, basic (DASH, LIVE)",
+        "uri": "https://livesim.dashif.org/livesim/testpic_2s/Manifest.mpd"
+      },
+      {
+        "name": "DASHIF - Live with availability start time (DASH, LIVE)",
+        "uri": "https://livesim.dashif.org/livesim/start_1800/testpic_2s/Manifest.mpd"
+      },
+      {
+        "name": "DASHIF - Live with minimum update period, time shift buffer depth (DASH, LIVE)",
+        "uri": "https://livesim.dashif.org/livesim/mup_300/tsbd_500/testpic_2s/Manifest.mpd"
+      },
+      {
+        "name": "DASHIF - Live with time limited sessions (DASH, LIVE)",
+        "uri": "https://livesim.dashif.org/livesim/modulo_10/testpic_2s/Manifest.mpd"
+      },
+      {
+        "name": "DASHIF - Live (dynamic) with scte35 ad splice (DASH, LIVE)",
+        "uri": "https://livesim.dashif.org/livesim/scte35_2/testpic_2s/Manifest.mpd"
+      },
+      {
+        "name": "DASHIF - Live (dynamic) with utc timing in manifest (DASH, LIVE)",
+        "uri": "https://livesim.dashif.org/livesim/utc_direct-head/testpic_2s/Manifest.mpd"
+      },
+      {
+        "name": "DASHIF - Live (dynamic) with inband dash event (DASH, LIVE)",
+        "uri": "https://livesim.dashif.org/livesim/scte35_2/testpic_2s/Manifest.mpd"
+      },
+      {
+        "name": "DASHIF - Live (dynamic) with period duration, early termination default (DASH, LIVE)",
+        "uri": "https://livesim.dashif.org/livesim/scte35_2/testpic_2s/Manifest.mpd"
+      },
+      {
+        "name": "DASHIF -IOP33 Posix, playout now (DASH, LIVE)",
+        "uri": "https://livesim.dashif.org/livesim/testpic_2s/Manifest.mpd#t=posix:now"
+      },
+      {
+        "name": "DASHIF - IOP33 Posix, playout at a specific time (DASH, LIVE)",
+        "uri": "https://livesim.dashif.org/livesim/testpic_2s/Manifest.mpd#t=posix:1465406946"
+      },
+      {
+        "name": "DASHIF - IOP40 UTC Timing, UTC-Direct (DASH, LIVE)",
+        "uri": "https://livesim.dashif.org/livesim/utc_direct/testpic_2s/Manifest.mpd"
+      },
+      {
+        "name": "DASHIF - IOP40 UTC Timing, UTC-HTTP-NTP (DASH, LIVE)",
+        "uri": "https://livesim.dashif.org/livesim/utc_ntp/testpic_2s/Manifest.mpd"
+      },
+      {
+        "name": "DASHIF -IOP40 UTC Timing, UTC-HTTP-SNTP (DASH, LIVE)",
+        "uri": "https://livesim.dashif.org/livesim/utc_sntp/testpic_2s/Manifest.mpd"
+      }
+    ]
+  },
+  {
+    "name": "Live Streams - Multiperiod",
+    "streams": [
+      {
+        "name": "Live multiperiod stream #1",
+        "uri": "https://livesim.dashif.org/livesim/periods_60/continuous_1/testpic_2s/Manifest.mpd"
+      },
+      {
+        "name": "Live multiperiod stream #2",
+        "uri": "https://d24rwxnt7vw9qb.cloudfront.net/v1/dash/e6d234965645b411ad572802b6c9d5a10799c9c1/All_Reference_Streams/4577dca5f8a44756875ab5cc913cd1f1/index.mpd"
+      },
+      {
+        "name": "Live multiperiod stream #3",
+        "uri": "https://d24rwxnt7vw9qb.cloudfront.net/v1/dash/e6d234965645b411ad572802b6c9d5a10799c9c1/All_Reference_Streams/ee565ea510cb4b4d8df5f48918c3d6dc/index.mpd"
+      },
+      {
+        "name": "Live multiperiod stream #4",
+        "uri": "https://d24rwxnt7vw9qb.cloudfront.net/v1/dash/e6d234965645b411ad572802b6c9d5a10799c9c1/All_Reference_Streams/91d37b0389de47e0b5266736d3633077/index.mpd"
+      },
+      {
+        "name": "Live multiperiod stream #5",
+        "uri": "https://d24rwxnt7vw9qb.cloudfront.net/v1/dash/e6d234965645b411ad572802b6c9d5a10799c9c1/All_Reference_Streams/6ba06d17f65b4e1cbd1238eaa05c02c1/index.mpd"
+      }
+    ]
+  }
+]

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IWP ref app - version 3.3.0</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/indexStyle.css" />
+    <link href="../../lib/iwp.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="main">
+        <div id="videoDiv"></div>
+        <div id="customStreamWrapper">
+            <form onsubmit="event.preventDefault();" id="form1" action="" autocomplete="off">
+                <input type="text" placeholder="Enter stream URL" id="urlName" name="urlName" spellcheck="false" />
+                <button type="submit" id="playField">PLAY</button>
+                <button type="reset" class="clear">CLEAR</button>
+            </form>
+            <form id="form2" action="" autocomplete="off">
+                <input type="text" placeholder="Enter DRM license URL" id="drmLicense" name="drmLicense"
+                    spellcheck="false" />
+                <button type="reset" class="clear">CLEAR</button>
+            </form>
+            <form id="form3" action="" autocomplete="off">
+                <input type="text" placeholder="Enter DRM Scheme " id="drmScheme" name="drmScheme" spellcheck="false" />
+                <button type="reset" class="clear">CLEAR</button>
+            </form>
+            <form id="form4" action="" autocomplete="off">
+                <input type="text" placeholder="Enter Subtitle URL" id="drmSubtitle" name="drmSubtitle"
+                    spellcheck="false" />
+                <button type="reset" class="clear">CLEAR</button>
+            </form>
+            <form id="form5" action="" autocomplete="off">
+                <input type="text" placeholder="Enter Subtitle Mime type" id="drmSubtitleMime" name="drmSubtitleMime"
+                    spellcheck="false" />
+                <button type="reset" class="clear">CLEAR</button>
+            </form>
+            <form id="form6" action="" autocomplete="off">
+                <input type="text" placeholder="Enter HINT " id="hint" name="hint" spellcheck="false" />
+                <button type="reset" class="clear">CLEAR</button>
+            </form>
+            <form id="form7" action="" autocomplete="off">
+                <input type="text" placeholder="Enter Secondary URL" id="secondaryUrl" name="secondaryUrl" spellcheck="false" />
+                <button type="reset" class="clear">CLEAR</button>
+            </form>
+            <form id="form8" action="" autocomplete="off">
+                <input type="text" placeholder="Enter Secondary DRM License URL " id="secondaryDrmLicense" name="secondaryDrmLicense" spellcheck="false" />
+                <button type="reset" class="clear">CLEAR</button>
+            </form>
+            <form id="form9" action="" autocomplete="off">
+                <input type="text" placeholder="Enter Secondary DRM Scheme" id="secondaryDrmScheme" name="secondaryDrmScheme" spellcheck="false" />
+                <button type="reset" class="clear">CLEAR</button>
+            </form>
+            <form id="form10" action="" autocomplete="off">
+                <input type="text" placeholder="Enter Secondary HINT" id="secondaryHint" name="secondaryHint" spellcheck="false" />
+                <button type="reset" class="clear">CLEAR</button>
+            </form>
+            <form id="form11" action="" autocomplete="off">
+                <input type="text" placeholder="Enter Primary Stream Data " id="primaryStreamData" name="primaryStreamData" spellcheck="false" />
+                <button type="reset" class="clear">CLEAR</button>
+            </form>
+            <form id="form12" action="" autocomplete="off">
+                <input type="text" placeholder="Enter Secondary Stream Data " id="secondaryStreamData" name="secondaryStreamData" spellcheck="false" />
+                <button type="reset" class="clear">CLEAR</button>
+            </form>
+        </div>
+        <div id="contentListWrapper">
+            <div class="closeStreamListBtn"></div>
+            <div class="playCustomStreamBtn">&#43;</div>
+        </div>
+        <div id="settingsMenuBackgroundDiv"></div>
+        <div id="customStreamWrapperBackgroundDiv"></div>
+        <div id="settingsBitBackgroundDiv"></div>
+        <div id="contentList">
+            <button id="contentListButton"></button>
+            <p id="contentListParagraph">Content<br />List</p>
+        </div>
+        <div id="playCustomStream">
+            <button id="playCustomStreamButton"></button>
+            <p id="playCustomStreamParagraph">Play Custom Stream</p>
+        </div>
+        <div id="playbackControls">
+            <p id="playbackControlsParagraph">Playback Controls</p>
+            <button id="playbackControlsButton"></button>
+        </div>
+        <div id="debugOverlay">
+            <div id="overlayParagraph">Debug Overlay</div>
+            <div id="playerVersion"></div>
+            <div id="currentlyPlaying"></div>
+            <div id="bandwidthPrint"></div>
+            <div id="stateOfPlayback"></div>
+            <div id="rollingBufferRange"></div>
+            <div id="durationPrint"></div>
+            <div id="contentEncrypted"></div>
+            <div id="startTime"></div>
+            <div id="liveEdgeDistance"></div>
+            <div id="positionDebug"></div>
+            <div id="streamingProtocolDebug"></div>
+            <div id="audioTrackDebug"></div>
+            <div id="videoTrackDebug"></div>
+            <div id="subtitleTrackDebug"></div>
+        </div>
+        <div id="analyticsOverlay">
+            <div id="overlayParagraph">Analytics Overlay</div>
+            <div id="playerName"></div>
+            <div id="playerVersionAnalytics"></div>
+            <div id="deviceName"></div>
+            <div id="osName"></div>
+            <div id="serialNo"></div>
+            <div id="browserName"></div>
+            <div id="stateChanged"></div>
+            <div id="PlaybackSpeed"></div>
+            <div id="firstFrameRendered"></div>
+            <div id="totalTimeToFirstFrameRenderer"></div>
+            <div id="downloadSpeed"></div>
+            <div id="droppedFrames"></div>
+            <div id="lowBandwidth"></div>
+            <div id="stallStart"></div>
+            <div id="stallStop"></div>
+            <div id="totalStalls"></div>
+            <div id="averageStallTime"></div>
+            <div id="endOfStream"></div>
+            <div id="audioCodec"></div>
+            <div id="audioChannels"></div>
+            <div id="audioSampleRate"></div>
+            <div id="subtitleFormat"></div>
+            <div id="resolution"></div>
+            <div id="bitrate"></div>
+            <div id="videoCodec"></div>
+            <div id="playingUri"></div>
+            <div id="streamingProtocol"></div>
+            <div id="videoForwardBuffer"></div>
+            <div id="videoBackwardBuffer"></div>
+            <div id="audioForwardBuffer"></div>
+            <div id="audioBackwardBuffer"></div>
+            <div id="subtitleEnabled"></div>
+        </div>
+        <div id="speedControlDiv">
+            <div id="speedControlHeader">
+                <p>Playback Speed</p>
+            </div>
+            <div id="speedControlBody" class="transparentLow">
+                <ul style="list-style: none" class="speedControlList">
+                    <div class="speedControlItem" data-value="0.25">
+                        <p>0.25x</p>
+                    </div>
+                    <div class="speedControlItem" data-value="0.50">
+                        <p>0.5x</p>
+                    </div>
+                    <div class="speedControlItem" data-value="1.00">
+                        <p>Normal</p>
+                    </div>
+                    <div class="speedControlItem" data-value="1.25">
+                        <p>1.25x</p>
+                    </div>
+                    <div class="speedControlItem" data-value="1.50">
+                        <p>1.5x</p>
+                    </div>
+                    <div class="speedControlItem" data-value="2.00">
+                        <p>2x</p>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div id="settingsTracksHeader">
+            <p id="selectTrackText">Tracks Selection</p>
+        </div>
+        <div id="settingsTracksDiv">
+            <div id="tracksContainer">
+                <button class="collapsible" id="trackVideo">
+                    <div><i class="arrow down"></i></div>
+                    Video
+                </button>
+                <div class="content" id="videoTrackDiv">
+                    <ul style="list-style: none"></ul>
+                </div>
+                <button class="collapsible" id="trackAudio">
+                    <div><i class="arrow down"></i></div>
+                    Audio
+                </button>
+                <div class="content" id="audioTrackDiv">
+                    <ul style="list-style: none"></ul>
+                </div>
+                <button class="collapsible" id="trackTitle">
+                    <div><i class="arrow down"></i></div>
+                    Subtitle
+                </button>
+                <div class="content" id="subsTrackDiv">
+                    <ul style="list-style: none"></ul>
+                </div>
+            </div>
+            <div id="settingsTracksButtonsDiv">
+                <button id="tracksButtonOk">OK</button>
+                <button id="tracksButtonCancel">CANCEL</button>
+            </div>
+        </div>
+
+        <div id="settingsTracksRepresentationHeader">
+            <p id="selectTrackText">Tracks Representation Selection</p>
+        </div>
+        <div id="settingsTracksRepresentationDiv">
+            <div id="tracksRepresentationContainer">
+                <button class="collapsible" id="trackRepresentationVideo">
+                    <div><i class="arrow down"></i></div>
+                    Video
+                </button>
+                <div class="content" id="videoTrackRepresentationDiv">
+                    <ul style="list-style: none"></ul>
+                </div>
+            </div>
+            <div id="settingsTracksRepresentationButtonsDiv">
+                <button id="tracksRepresentationButtonOk">OK</button>
+                <button id="tracksRepresentationButtonMenu" class="buttonMenu"></button>
+                <button id="tracksRepresentationButtonCancel">
+                    CANCEL
+                </button>
+            </div>
+        </div>
+
+        <div id="abrManagementBox">
+            <div id="abrManagementHeaderid" class="abrManagementHeader">
+                <p id="abrManagementText">ABR Management</p>
+            </div>
+            <div id="abrManagementBody">
+                <button id="abrManagementButtonStart" class="abrManagementButton">
+                    Set/unset as start ABR
+                </button>
+                <button id="abrManagementButtonMin" class="abrManagementButton">
+                    Set/unset as min ABR
+                </button>
+                <button id="abrManagementButtonMax" class="abrManagementButton">
+                    Set/unset as max ABR
+                </button>
+                <button id="abrManagementButtonReset" class="abrManagementButton">
+                    Reset ABR setup
+                </button>
+            </div>
+        </div>
+
+        <div id="settingsMenuDiv">
+            <div class="settingsMenuHeader">
+                <p id="selectMenuText">Player Configurator (Settings)</p>
+            </div>
+            <div id="settingsMenuMain" class="transparentLow"></div>
+        </div>
+        <div id="errorMessageDiv"></div>
+        <div id="settingsBitDiv">
+            <div id="settingsBitHeader">
+                <p id="selectBitText">Track Representations Selection</p>
+            </div>
+            <div id="settingsBitMain">
+                <button class="collapsible">Video</button>
+            </div>
+        </div>
+        <div id="commandWrapper">
+            <button id="volumeUpButton"></button>
+            <button id="volumeDownButton"></button>
+            <div id="timeContainer">
+                <span id="leftEdgeText" style="float: left">00:00:00</span>
+                <span id="currentTimeText" style="float: none;">00:00:00</span>
+                <span id="durationTimeText" style="float: right">
+                    00:00:00
+                </span>
+            </div>
+            <div id="slideContainer">
+                <input type="range" min="0" max="1" value="0" step="1" class="slider" id="slider" />
+            </div>
+            <div class="commandContainer" id="commandContainer">
+                <div class="left">
+                    <button id="trackSelection" type="button" style="width: 5vw"></button>
+                    <button id="bitRate" type="button" style="width: 5vw"></button>
+                    <button id="playbackSpeed" type="button" style="width: 5vw"></button>
+                </div>
+                <div class="center">
+                    <button id="previous" type="button" style="width: 5vw"></button>
+                    <button id="rewind" type="button" style="width: 5vw"></button>
+                    <button id="playPause" class="pause" type="button" style="width: 5vw"></button>
+                    <button id="fastForward" type="button" style="width: 5vw"></button>
+                    <button id="next" type="button" style="width: 5vw"></button>
+                </div>
+                <div class="right">
+                    <button id="goToLive" type="button" style="width: 5vw"></button>
+                    <button id="restart" type="button" style="width: 5vw"></button>
+                    <button id="loop" type="button" style="width: 5vw"></button>
+                    <button id="settingsMenu" type="button" style="width: 5vw"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../../lib/iwp.min.js"></script>
+    <script src="./streams/streamList.json"></script>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
